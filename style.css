@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100px;
+}
+nav{
+    background-color: #1F2937;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-left: 50px;
+}
+main {
+    display: flex;
+    display: table-row;
+}
+nav > .content{
+    display: flex;
+}
+nav .content .cfirst > h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+main .quote > p{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    background-color: #E5E7EB;
+}
+main > .quote > span {
+    background-color: #E5E7EB;
+}
+footer{
+    font-size: 24px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
